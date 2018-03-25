@@ -1,0 +1,101 @@
+*{margin:0;padding:0;list-style: none;}
+a{text-decoration: none;color: #000000;display: block;}
+body{background-color: #F2F1EF;}
+/*网页头部*/
+#header{
+	height: 75px;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+#header .nav-top{
+	position: relative;
+	height: 75px;
+	width: 1000px;
+	margin: 0 auto;
+	z-index: 5;
+}
+/*logo部分*/
+#header .logo{
+	float: left;
+	margin-top: 20px;
+}
+/*导航菜单*/
+#header .navbar{
+	float: left;
+	height: 30px;
+	width: 320px;
+	margin:35px 0 0 80px;
+	/*background-color: #EEEEEE;*/
+}
+#header .menu{
+	float: left;	
+	width: 70px;
+	line-height: 30px;	
+	margin-right: 10px;
+	text-align: center;
+	font-family: Microsoft Yahei;
+}
+.menu ul{
+	display: none;
+}
+.menu a{
+	color: #777777;
+}
+.menu a:hover{
+	color: #000000;
+}
+.menu ul li a:link,.menu ul li a:visited{
+	background-color: #FFFFFF;
+}
+.menu ul li a:hover{
+	background-color: #E3FAE1;
+}
+/*搜索框*/
+.search form{
+    float: left;
+    width: 218px;
+	margin: 35px 0 0 100px;
+}
+.search input{
+	width: 170px;
+	height: 30px;
+	padding-left: 10px;
+	border: 2px solid #7BA7AB;
+	border-radius: 5px 0 0 5px;
+	background: #F9F0DA;
+	color: #9E9C9C;
+	outline: none; 
+	float: left;
+}
+.search button{
+	width: 34px;
+	height: 34px;
+	border: none;
+    background: #7BA7AB;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+/*注册登录*/
+.nav-enter{
+	float: right;
+	width: 130px;
+	margin-top:35px;
+	color: #777777;
+}
+.nav-enter ul li{
+	float: left;
+	width: 55px;
+	margin-left: 10px;
+	background:#F9F0DA;
+	border-radius: 5px;
+	cursor: pointer;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+}
+.nav-enter ul li a{
+	color: #777777;
+}
+.nav-enter ul li a:hover{
+	color: #000000;
+}

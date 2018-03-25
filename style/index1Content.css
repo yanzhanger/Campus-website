@@ -1,0 +1,318 @@
+
+/*轮播图部分*/
+#slider{
+	width: 100%;
+	height: 400px;	
+	position: relative;
+	/*background-color: pink;*/
+}
+.slider-img{
+	width: 100%;
+	height: 400px;
+}
+/*轮播图片*/
+.slider-img img{
+	position: absolute;
+	width:100%;
+	height: 400px;
+}
+/*轮播图下标*/
+#slider ul {
+	position: absolute;
+	width:130px;
+	bottom: 10px; 
+	left: 48%;
+}
+#slider ul li { 	
+	width:12px;
+	height:5px;
+	border:1px solid #FFFFFF;
+	float:left;
+	background:#cccccc;
+	margin-right: 8px;
+	cursor:pointer;
+}
+/*轮播图左右箭头*/
+#slider-left ,#slider-right{
+	position: absolute;
+	width:100px;
+	height:100px;
+	font-size:60px;
+	line-height:100px;
+	text-align:center;
+	color:#f4f4f4;
+	top:140px;	
+	z-index:5;
+	cursor:pointer;
+	opacity:0.4;
+}
+#slider-left {
+	left:10px;
+}
+#slider-right {
+	right:10px;
+}
+
+/*内容部分*/
+.container{
+	width:1000px;
+	height: 2000px;
+	margin: 10px auto;
+	/*background-color: pink;*/
+}
+.container ul li a:hover{
+	color: #94C945;
+}
+.container-left,.container-right{
+	width: 495px;
+	height: 1530px;
+	/*border: 1px solid silver;*/
+	float: left;
+}
+/*每一个内容模块*/
+.content-1 ,.content-2,.content-3,.content-4,.content-5,.content-6{
+	width: 495px;
+	height: 500px;
+	background-color: #FFFFFF;
+	border:1px solid #DCDCDC;
+	float: left;
+}
+.content-5,.content-6{
+	height: 456px;
+}
+.content-2,.content-4,.content-6{
+	margin-left: 6px;
+}
+.content-3,.content-4,.content-5,.content-6{
+	margin-top: 10px;
+}
+/*每一个内容头部导航*/
+.content-top{
+	width: 495px;
+	height: 45px;
+	background-color: #E3FAE1;	
+	font-size: 14px;
+	/*border: 1px solid silver;*/
+}
+.content-top ul li{
+	float: left;
+	width: 70px;
+	margin-right: 8px;	
+	line-height: 45px;
+	text-align: center;
+	/*background-color:#61C5FE; */
+}
+.content-top .content-title{
+	width: 90px;
+	height: 43px;
+	font-size: 16px;
+	border-top: 2px solid #E3FAE1;
+	background-color: #FFFFFF;
+}
+/*每一个模块内容部分*/
+.content-middle{
+	width: 495px;
+	height: 320px;
+	/*background-color: silver;*/
+}
+.content-6 .content-middle ul li{
+	width: 210px;
+	height: 80px;
+	/*background-color: pink;*/
+	float: left;
+	margin: 15px 0 0 25px;
+	position: relative;
+	border-bottom: 1px dashed #94C945;
+}
+.content-6 .content-middle ul li img{
+	width: 50px;
+	height: 50px;
+	margin: 20px 0 0 20px;
+	float: left;
+}
+.content-6 .content-middle ul li a,.content-6 .content-middle ul li p{
+	font-size: 12px;
+	margin: 25px 0 0 80px;
+	position: absolute;
+	color: #94C945;
+}
+.content-6 .content-middle ul li p{
+	margin: 55px 0 0 80px;
+	position: absolute;
+}
+/*每一个模块内容左部分*/
+.content-middle .content-middle-left{
+	width: 240px;
+	height: 290px;
+	float: left;
+	/*background-color: pink;*/
+}
+.content-middle .content-middle-left img{
+	width: 200px;
+	height: 270px;
+	margin: 10px 20px;
+}
+.content-middle .lifeDescription{
+	font-size: 14px;
+	text-align: center;
+}
+.content-middle .lifeDescription a:hover{
+	color: #94C945;
+}
+/*每一个模块内容右部分*/
+.content-middle-right{
+	/*position: relative;*/
+	margin-top: 10px;
+	float: left;
+	width: 255px;
+	height: 310px;
+	/*background-color: pink;*/
+}
+.content-3 .content-middle-right,.content-4 .content-middle-right{
+	width: 255px;
+	height: 310px;
+	float: left;
+	/*background-color: pink;*/
+	position: relative;
+}
+.content-5 .content-middle-right{
+	width: 495px;
+	height: 310px;
+	/*background-color: pink;*/
+}
+.content-5 .content-middle-right ul li{
+	width: 455px;
+	height: 35px;
+	font-size: 14px;
+	border-bottom: 1px dashed #94C945;
+	margin-left: 20px;
+}
+.content-5 .content-middle-right ul li a{
+	position: absolute;
+	margin:8px 0 0 20px;
+}
+.content-5 .content-middle-right .number{
+	width: 14px;
+	height: 14px;
+	background-color: #94C945;
+	float: left;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 12px;
+}
+.content-middle-right ul li{
+	width: 235px;
+	height: 60px;
+	font-size: 12px;
+	border-bottom: 1px dashed #94C945;
+}
+.content-middle-right ul li p{
+	color: #777777;
+}
+.content-3 .content-middle-right ul li,.content-4 .content-middle-right ul li{
+	width: 235px;
+	height: 37px;
+	font-size: 14px;
+	border-bottom: 1px dashed #94C945;
+}
+.content-3 .content-middle-right ul li a,.content-4 .content-middle-right ul li a{
+	position: absolute;
+	margin-top: 8px;
+}
+.content-middle-right img{
+	float: left;
+	width: 60px;
+	height: 50px;
+	margin-top:5px; 
+	margin-right:10px;
+}
+.content-middle-right h{
+	position: absolute;
+	color: #94C945;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.content-middle-right p{
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 70px;
+}
+/*每一个模块内容底部标签*/
+.content-bottom{
+	width: 495px;
+	height: 130px;
+	/*background-color: #EAD57D;*/
+}
+.content-bottom .content-bottom-tag{
+	height: 45px;
+	/*background-color: pink;*/
+}
+.content-bottom .content-bottom-tag img{
+	float: left;
+	margin-top: 15px;
+	margin-left:20px;
+}
+.content-bottom .content-bottom-tag ul li{
+	width: 50px;
+	font-size: 14px;
+	float: left;
+	line-height: 45px;
+	text-align: center;
+}
+.content-bottom .content-bottom-img img{
+	width: 495px;
+	height: 90px;
+}
+/*网页底部图片库*/
+.container-bottom{
+	width: 1000px;
+	height: 300px;	
+	float: left;
+	/*background-color: silver;*/
+}
+.container-bottom h{
+	font-weight: bold;
+	margin-left: 20px;
+}
+.container-bottom .gallery{
+	width: 960px;
+	height: 250px;
+	margin-left: 20px;
+	/*background-color: green;*/
+}
+.container-bottom .gallery ul li{
+	position: relative;
+	width: 172px;
+	height: 110px;
+	float: left;
+	margin:10px 5px;
+	border: 3px solid #DCDCDC;
+}
+.container-bottom .gallery ul li img{
+	width: 172px;
+	height: 110px;
+	position: relative;
+}
+.gallery h1 {
+	position: absolute;
+	font-size: 14px;
+	line-height: 110px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    text-align: center;
+    -webkit-backface-visibility: hidden;/* 隐藏旋转元素的背面*/
+    backface-visibility: hidden;
+    background: rgba(0, 0, 0, 0.6);   /*后面这个0.6是指的背景的透明度*/
+    opacity: 0;
+    -webkit-transition: all 0.35s ease-in-out;   /*规定提示信息怎样出现ease-in-out以慢速度开始和结束*/
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+.gallery ul li a:hover h1{
+	opacity: 1;
+}
+
+
